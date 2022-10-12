@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test grade calculation",
+      "setup": "",
+      "run": "cargo test test_grade_calculation",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test safety calculation",
+      "setup": "",
+      "run": "cargo test test_safety_calculation",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test simulation",
+      "setup": "",
+      "run": "cargo test test_simulation",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
